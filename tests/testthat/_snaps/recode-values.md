@@ -75,7 +75,7 @@
       replace_values(x, "c" ~ "b")
     Condition
       Error in `replace_values()`:
-      ! Can't convert from `..1 (left)` <character> to <factor<38051>> due to loss of generality.
+      ! Can't convert from `..1 (left)` <character> to <factor<3b1cd>> due to loss of generality.
       * Locations: 1
 
 ---
@@ -84,7 +84,7 @@
       replace_values(x, from = "c", to = "b")
     Condition
       Error in `replace_values()`:
-      ! Can't convert from `from` <character> to `x` <factor<38051>> due to loss of generality.
+      ! Can't convert from `from` <character> to `x` <factor<3b1cd>> due to loss of generality.
       * Locations: 1
 
 ---
@@ -93,7 +93,7 @@
       replace_values(x, "a" ~ "c")
     Condition
       Error in `replace_values()`:
-      ! Can't convert from `..1 (right)` <character> to <factor<38051>> due to loss of generality.
+      ! Can't convert from `..1 (right)` <character> to <factor<3b1cd>> due to loss of generality.
       * Locations: 1
 
 ---
@@ -102,7 +102,7 @@
       replace_values(x, from = "a", to = "c")
     Condition
       Error in `replace_values()`:
-      ! Can't convert from `to` <character> to <factor<38051>> due to loss of generality.
+      ! Can't convert from `to` <character> to <factor<3b1cd>> due to loss of generality.
       * Locations: 1
 
 ---
@@ -111,7 +111,7 @@
       replace_values(x, "a" ~ "b", NULL, "b" ~ "c")
     Condition
       Error in `replace_values()`:
-      ! Can't convert from `..3 (right)` <character> to <factor<38051>> due to loss of generality.
+      ! Can't convert from `..3 (right)` <character> to <factor<3b1cd>> due to loss of generality.
       * Locations: 1
 
 # `default` is part of `ptype` determination
